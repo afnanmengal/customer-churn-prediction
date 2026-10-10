@@ -1,0 +1,10 @@
+random_state: 42
+target: churn
+positive_class: 1
+resampling: training_folds_only
+validation_threshold_selection: profit
+business_assumptions:
+  save_value: null
+  contact_cost: null
+  missed_churn_cost: null
+report_metrics: [average_precision, recall, precision]
